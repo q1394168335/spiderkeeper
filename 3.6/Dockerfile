@@ -6,4 +6,4 @@ RUN chmod +x /docker-entrypoint.sh
 
 RUN pip install spiderkeeper -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
-CMD /docker-entrypoint.sh
+CMD sh /docker-entrypoint.sh
